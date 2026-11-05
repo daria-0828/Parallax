@@ -87,15 +87,19 @@ a {
     padding: 12px 22px;
     border: none;
     border-radius: 6px;
-
     font-size: 16px;
     cursor: pointer;
     background: #E5A774;
     border-radius: 25px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    transition: transform 0.1s ease;
 }
 
+.button:active {
+    transform: translate(3px, 3px);
+    box-shadow: 0px 0px 0px;
 
+}
 
 .intro {
     display: grid;
@@ -142,7 +146,7 @@ a {
 }
 
 
-/* FEATURED CARDS */
+/* featured cards */
 
 .featured-cards {
     display: grid;
@@ -162,11 +166,9 @@ a {
 .site-footer {
     margin-top: 80px;
     padding: 30px 40px;
-
     border-top: 1px solid #ddd;
     background-color: #033D6F;
     color: white;
-
     display: flex;
     justify-content: space-between;
 }
@@ -179,8 +181,10 @@ a {
 
 
 
+/* ABOUT US PAGE */
 
-
-
+.about-us-page{
+    padding: 0px
+}
 
 
