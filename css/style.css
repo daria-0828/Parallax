@@ -10,10 +10,18 @@ main bg color - F6F3EA
 /* General page styles */
 
 
-.site-header{
+.site-header {
     background-color: #033D6F;
     color: white;
-    padding: 10px;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .navigation {
@@ -106,9 +114,8 @@ a {
     grid-template-columns: 1fr 1fr;
     gap: 60px;
     align-items: center;
-    padding: 80px 0;
+    padding: 80px 125px;
     background-color: #F6F3EA;
-    padding: 20px
 }
 
 .intro-image img {
@@ -187,4 +194,7 @@ a {
     padding: 0px
 }
 
+.about-us-content {
+    padding: 20px;
+}
 
