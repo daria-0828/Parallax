@@ -1,0 +1,186 @@
+
+
+/*
+blue heading - 0674D5
+header color - 033D6F
+main bg color - F6F3EA
+*/
+
+
+/* General page styles */
+
+
+.site-header{
+    background-color: #033D6F;
+    color: white;
+    padding: 10px;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: #F6F3EA;
+    padding: 0px;
+    margin: 0px
+}
+
+
+h1 {
+    color: #0674D5
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+/* HOMEPAGE */
+
+.homepage {
+    background-color: #0674D5;
+}
+
+.home-title {
+    color: white;
+}
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 56px;
+    margin-bottom: 10px;
+}
+
+.hero h3 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    color: white;
+}
+
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.button {
+    padding: 12px 22px;
+    border: none;
+    border-radius: 6px;
+
+    font-size: 16px;
+    cursor: pointer;
+    background: #E5A774;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+    padding: 80px 0;
+    background-color: #F6F3EA;
+    padding: 20px
+}
+
+.intro-image img {
+    width: 100%;
+}
+
+.intro-text {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.intro-text p {
+    margin-bottom: 25px;
+}
+
+
+/* FEATURED */
+
+.featured {
+    padding: 80px;
+}
+
+.featured-intro {
+    margin-bottom: 40px;
+}
+
+.featured-intro h2 {
+    font-size: 36px;
+    color: white;
+}
+
+.featured-intro p {
+    font-size: 18px;
+    color: white;
+}
+
+
+/* FEATURED CARDS */
+
+.featured-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.featured-card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #E5A774;
+}
+
+
+
+/* Footer */
+.site-footer {
+    margin-top: 80px;
+    padding: 30px 40px;
+
+    border-top: 1px solid #ddd;
+    background-color: #033D6F;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
